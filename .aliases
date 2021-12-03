@@ -1,0 +1,40 @@
+#!/usr/bin/env zsh
+# ~/.aliases
+
+
+#   -----------------------------
+#   1. REMAP DEFAULT COMMANDS
+#   -----------------------------
+
+alias ..='cd ..' 
+# Go up one directory level
+alias ...='cd ../..' 
+# Go up two directory levels
+alias c='clear'
+# Clear terminal window
+
+alias ll='ls -aFhl --color'
+alias ls='ls -F --color'
+
+alias grep='grep --color=auto '
+# Highlight match with colour
+alias cc='cc -Wall'
+# Enable all warnings
+
+
+#   -----------------------------
+#   2. MAP CUSTOM COMMANDS
+#   -----------------------------
+
+alias dl='cd ~/Downloads'
+# cd into HOME/Downloads directory
+alias dk='cd ~/Desktop'
+# cd into HOME/Desktop directory
+
+
+alias v!='. venv/bin/activate'
+# Activate python virtual enviroment
+
+alias r!='pip install -r requirements.txt'
+# Install Python packages from requirements.txt
+
